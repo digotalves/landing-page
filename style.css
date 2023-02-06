@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    min-height: 100%;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(to bottom, #024454, #245F6E, #0381A1, #328AA1);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 24px;
+    margin: 0 100px 0 0;
+}
+
+.cabecalho-lista {
+    display: flex;
+    gap: 60px;
+}
+
+.cabecalho-item-lista {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #FFF8DC;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cabecalho-item-lista:hover {
+    color: #fff8dca2;
+}
+
+.conteudo {
+    font-family: 'Montserrat', sans-serif;
+    border-top: 0.4px solid #FFF8DC;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.conteudo-principal {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF8DC;
+    padding: 10% 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.conteudo-principal-titulo {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 44px;
+    justify-content: center;
+    padding: 20px 0 0 0;
+}
+
+.conteudo-principal-subtitulo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    padding: 0 20%;
+}
+
+.conteudo-principal-botao {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 50px 0 0 700px;
+    background-color: beige;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.conteudo-principal-botao:hover {
+    background-color: #fcfeffb2;
+    cursor: pointer;
+
+}
